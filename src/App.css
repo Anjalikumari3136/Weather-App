@@ -163,9 +163,13 @@ body {
 
 .heading {
   white-space: nowrap;
-  overflow: hidden;
-  display: block;
+  overflow:hidden;
+  display: inline-block;
   animation: scroll-left 20s linear infinite;
+}
+.heading-wrapper {
+  width: 100%;
+  overflow: hidden;
 }
 
 @keyframes scroll-left {
@@ -208,7 +212,7 @@ body {
 
   .search-bar input,
   .search-bar button {
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
   }
 
